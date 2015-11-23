@@ -156,3 +156,5 @@ summarize_build() {
 
 header "Build succeeded!"
 summarize_build | output "$LOG_FILE"
+
+npm config set registry http://registry.npmjs.org
